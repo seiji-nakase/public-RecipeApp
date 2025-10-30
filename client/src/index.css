@@ -1,0 +1,12 @@
+/*
+実行例: npm run dev
+概要: Tailwind CSSのベースレイヤーを読み込み、全体のデフォルトスタイルを整える。
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
